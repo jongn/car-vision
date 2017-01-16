@@ -24,7 +24,7 @@ OpenCV (as of this date) provides [BackgroundSubtractorMOG2](http://docs.opencv.
 Since the background subtractors need to first learn the background, the first few frames will have a very low accuracy. This leads us to the first optimization.
 
 ### Optimization: Approximate the background beforehand
-
+The current implementation will first approximate the background by using a running average of recent frames, and then apply that approximation to the background subtractor with some initial learning rate. To learn more about how this works, see the additional resources section.
 
 ## Some Images
 
@@ -34,3 +34,5 @@ BackgroundSubtractorMOG algorithm source [paper](http://personal.ee.surrey.ac.uk
 BackgroundSubtractorMOG2 algorithm source [paper](http://www.zoranz.net/Publications/zivkovic2004ICPR.pdf)
 
 BackgroundSubtractorGMG algorithm source [paper](http://goldberg.berkeley.edu/pubs/acc-2012-visual-tracking-final.pdf)
+
+Running average background subtraction algorithm source [paper](https://pdfs.semanticscholar.org/db2e/6623c8c0f42e29baf066f4499015c8397dae.pdf)
