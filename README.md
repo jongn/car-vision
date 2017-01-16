@@ -29,10 +29,7 @@ The current implementation will first approximate the background by using a runn
 ## Some Images
 
 ## Additional resources
-BackgroundSubtractorMOG algorithm source [paper](http://personal.ee.surrey.ac.uk/Personal/R.Bowden/publications/avbs01/avbs01.pdf)
-
-BackgroundSubtractorMOG2 algorithm source [paper](http://www.zoranz.net/Publications/zivkovic2004ICPR.pdf)
-
-BackgroundSubtractorGMG algorithm source [paper](http://goldberg.berkeley.edu/pubs/acc-2012-visual-tracking-final.pdf)
-
-Running average background subtraction algorithm source [paper](https://pdfs.semanticscholar.org/db2e/6623c8c0f42e29baf066f4499015c8397dae.pdf)
+* BackgroundSubtractorMOG algorithm source [paper](http://personal.ee.surrey.ac.uk/Personal/R.Bowden/publications/avbs01/avbs01.pdf)
+* BackgroundSubtractorMOG2 algorithm source [paper](http://www.zoranz.net/Publications/zivkovic2004ICPR.pdf)
+* BackgroundSubtractorGMG algorithm source [paper](http://goldberg.berkeley.edu/pubs/acc-2012-visual-tracking-final.pdf)
+* Running average background subtraction algorithm source [paper](https://pdfs.semanticscholar.org/db2e/6623c8c0f42e29baf066f4499015c8397dae.pdf)
